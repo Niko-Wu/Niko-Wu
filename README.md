@@ -1,7 +1,9 @@
 # Hi, I'm Niko 👋
 
-Backend engineer focused on **Go / Java** services, IM-to-agent bridges, and developer tooling.
+Backend engineer building **AI agents** — agent orchestration, IM-to-agent bridges, and multi-agent developer workflows, on a **Go / Java** foundation.
 
+![AI Agents](https://img.shields.io/badge/AI_Agents-8A2BE2?style=flat&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=flat&logo=anthropic&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=spring&logoColor=white)
@@ -15,10 +17,7 @@ Backend engineer focused on **Go / Java** services, IM-to-agent bridges, and dev
 
 ## 🛠 What I work on
 
-- IM ↔ coding-agent bridges (Feishu bot + cursor-agent, self-hosted on macOS via launchd)
-- Multi-repo CI/CD automation and agent-team orchestration workflows
-- E-commerce / IoT platform backends at scale
-
-## 📊 Stats
-
-![Niko's GitHub stats](https://github-readme-stats.vercel.app/api?username=Niko-Wu&show_icons=true&theme=default&hide_border=true)
+- **AI agent development** — building intelligent agents on top of coding-agent runtimes (Claude Code, cursor-agent), with persona / skill / rule-based agent design
+- **Multi-agent orchestration** — spec-driven development pipelines with agent teams (architect / developer / tester / DevOps roles), task DAG dispatch across repos
+- IM ↔ agent bridges — Feishu bot wired to local coding agents for Q&A, troubleshooting, and code-review approval
+- E-commerce / IoT platform backends at scale (Java / Spring / Dubbo)
