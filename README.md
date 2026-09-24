@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Agent Engineer @ Tuya</b> — building multi-agent developer workflows:<br>
-  <sub>agent orchestration · persona / skill / rule design · spec-driven development pipelines</sub>
+  <sub>agent orchestration · spec-driven development pipelines · agent design on coding-agent runtimes</sub>
 </p>
 
 <p align="center">
@@ -16,11 +16,19 @@
 
 ## ⚡ What I'm building
 
-- **Multi-agent orchestration** — agent teams with architect / developer / tester / DevOps roles, task-DAG dispatch across repos
-- **Spec-driven development pipelines** — requirements → spec → plan → tasks → code → test, driven end-to-end by agents
-- **Agent design on coding-agent runtimes** — persona, skills and rules for Claude Code and similar agent CLIs
-- **IM ↔ agent bridges** — Feishu bots wired to local coding agents for Q&A, troubleshooting and code-review approval
-- E-commerce / IoT platform backends at scale (Java / Spring / Dubbo)
+### speckit-workflow — a spec-driven, multi-agent development pipeline
+
+A Claude Code plugin I designed and built at Tuya, in daily use on our team. It takes a feature from a one-line request to deployed code, end to end:
+
+- **One pipeline, seven stages** — `specify → grill → plan → validate → sync → implement → test`, advanced by a router that reads a per-workspace `pipeline.yaml`
+- **A five-role agent team** — software architect (lead) / backend architect / frontend developer / functional tester / DevOps automator, each stage dispatching to the right role and model tier
+- **19 skills** — Socratic PRD decomposition into acceptance criteria, technical design with e2e-spec derivation, pre-code quality gates, multi-repo parallel coding with compile + LSP + unit-test gates, and a test stage that drives a fix-loop to green
+- **Deterministic hooks** — objective, file-level checks run as scripts the model cannot skip; judgment calls stay with an LLM reviewer
+- **Knowledge that compounds** — each finished project is curated into an Obsidian wiki (project / app / concept pages), so past decisions and pitfalls feed the next design
+
+### Typed judgments for agents (research)
+
+Exploring [TypeSafe](https://typesafe.ai)'s System One models — **[Jev](https://docs.typesafe.ai)**, its flagship model that turns natural language into typed, composable judgments — as a primitive for agent routing, ranking and verification inside these workflows.
 
 ## 🔁 Open Source
 
