@@ -32,7 +32,19 @@ Exploring [TypeSafe](https://typesafe.ai)'s System One models — **[Jev](https:
 
 ## 🔁 Open Source
 
-Active contributor to **[chenhg5/cc-connect](https://github.com/chenhg5/cc-connect)** (15k+ ⭐) — bridging IM platforms to local coding agents: image input for the cursor backend, cross-platform build fixes.
+Contributing to **[chenhg5/cc-connect](https://github.com/chenhg5/cc-connect)** (15k+ ⭐) — bridging IM platforms to local coding agents.
+
+**Merged**
+
+- [#1709](https://github.com/chenhg5/cc-connect/pull/1709) `feat(cursor)` — deliver image attachments to the Cursor CLI via on-disk paths, with MIME-based extension inference
+- [#1710](https://github.com/chenhg5/cc-connect/pull/1710) `fix(daemon)` — drop redundant `CheckLinger` stub that broke all non-Linux builds
+- [#1738](https://github.com/chenhg5/cc-connect/pull/1738) `fix(pi)` — remove unused `os` import that broke Windows builds
+
+**Approved, awaiting merge**
+
+- [#1778](https://github.com/chenhg5/cc-connect/pull/1778) `feat(feishu)` — AskUserQuestion card 2.0: option buttons + free-form input
+- [#1757](https://github.com/chenhg5/cc-connect/pull/1757) `fix(core)` — trailing `NO_REPLY` must not suppress text already delivered before a tool call
+- [#1755](https://github.com/chenhg5/cc-connect/pull/1755) `fix(claudecode)` — add `claude-fable-5` to the `/model` fallback list
 
 I also build daily on top of open agent tooling — [spec-kit](https://github.com/github/spec-kit), [Claude Code](https://github.com/anthropics/claude-code), and the agent-CLI ecosystem around them.
 
