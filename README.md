@@ -51,7 +51,9 @@ I also build daily on top of open agent tooling — [spec-kit](https://github.co
 ## 📬 Contact
 
 <p align="center">
+  <a href="mailto:nikowu_mini@163.com"><img alt="Email" src="https://img.shields.io/badge/Email-nikowu__mini@163.com-EA4335?style=flat-square&logo=maildotru&logoColor=white"></a>
   <img alt="WeChat" src="https://img.shields.io/badge/WeChat-From__0714-07C160?style=flat-square&logo=wechat&logoColor=white">
+  <img alt="Location" src="https://img.shields.io/badge/Hangzhou-China-1f6feb?style=flat-square&logo=googlemaps&logoColor=white">
 </p>
 
 <p align="center"><sub>Or just open an issue / discussion on a repo I'm active in.</sub></p>
