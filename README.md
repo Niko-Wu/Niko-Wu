@@ -54,4 +54,6 @@ I also build daily on top of open agent tooling — [spec-kit](https://github.co
   <img alt="WeChat" src="https://img.shields.io/badge/WeChat-From__0714-07C160?style=flat-square&logo=wechat&logoColor=white">
 </p>
 
+<p align="center">Always happy to talk about agents, open source, or anything in between.</p>
+
 <p align="center"><sub>Email and location are in the sidebar — or just open an issue / discussion on a repo I'm active in.</sub></p>
