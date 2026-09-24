@@ -28,14 +28,6 @@ Active contributor to **[chenhg5/cc-connect](https://github.com/chenhg5/cc-conne
 
 I also build daily on top of open agent tooling — [spec-kit](https://github.com/github/spec-kit), [Claude Code](https://github.com/anthropics/claude-code), and the agent-CLI ecosystem around them.
 
-## 📊 Stats
-
-<p align="center">
-  <img alt="GitHub activity, community and repository stats" src="metrics.svg">
-</p>
-
-<sub>Rendered nightly from the GitHub API by <a href="https://github.com/Niko-Wu/Niko-Wu/blob/main/.github/workflows/metrics.yml">a workflow in this repo</a> and committed as an SVG — a hotlinked widget is someone else's uptime. Most of my day-to-day lives in private / corporate repos; the public graph is the tip of the iceberg.</sub>
-
 ## 📬 Contact
 
 <p align="center">
