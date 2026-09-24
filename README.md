@@ -24,20 +24,17 @@
 
 ## 🔁 Open Source
 
-**[chenhg5/cc-connect](https://github.com/chenhg5/cc-connect)** — bridge IM platforms (Feishu/Lark, Telegram, …) to local coding agents. 15k+ ⭐
+Active contributor to **[chenhg5/cc-connect](https://github.com/chenhg5/cc-connect)** (15k+ ⭐) — bridging IM platforms to local coding agents: image input for the cursor backend, cross-platform build fixes.
 
-- [#1709](https://github.com/chenhg5/cc-connect/pull/1709) `feat(cursor)` — deliver image attachments to the CLI via on-disk paths, with MIME-based extension inference
-- [#1710](https://github.com/chenhg5/cc-connect/pull/1710) `fix(daemon)` — drop redundant `CheckLinger` stub that broke all non-Linux builds
-- [#1738](https://github.com/chenhg5/cc-connect/pull/1738) `fix(pi)` — remove unused `os` import that broke Windows builds
+I also build daily on top of open agent tooling — [spec-kit](https://github.com/github/spec-kit), [Claude Code](https://github.com/anthropics/claude-code), and the agent-CLI ecosystem around them.
 
 ## 📊 Stats
 
 <p align="center">
-  <img alt="stats" src="https://github-readme-stats.vercel.app/api?username=Niko-Wu&show_icons=true&hide_border=true&count_private=true">
-  <img alt="langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Niko-Wu&layout=compact&hide_border=true&count_private=true">
+  <img alt="GitHub activity, community and repository stats" src="metrics.svg">
 </p>
 
-<sub>Most of my day-to-day lives in private / corporate repos — the public graph is the tip of the iceberg.</sub>
+<sub>Rendered nightly from the GitHub API by <a href="https://github.com/Niko-Wu/Niko-Wu/blob/main/.github/workflows/metrics.yml">a workflow in this repo</a> and committed as an SVG — a hotlinked widget is someone else's uptime. Most of my day-to-day lives in private / corporate repos; the public graph is the tip of the iceberg.</sub>
 
 ## 📬 Contact
 

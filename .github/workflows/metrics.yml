@@ -1,0 +1,32 @@
+name: Profile metrics
+
+# Why this exists instead of the usual one-line widgets:
+# github-readme-stats was unreachable from my usual network, and the public
+# instance has had DEPLOYMENT_PAUSED/DEPLOYMENT_DISABLED outages before.
+# A hotlinked widget is someone else's uptime; this job renders the same
+# numbers into an SVG committed here, so the profile cannot show a broken card.
+on:
+  schedule:
+    # 18:30 UTC = 02:30 Asia/Shanghai
+    - cron: '30 18 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Stats card
+        uses: lowlighter/metrics@latest
+        with:
+          # No METRICS_TOKEN secret: the workflow token covers public data,
+          # which is all this card shows anyway.
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: Niko-Wu
+          filename: metrics.svg
+          template: classic
+          base: header, activity, community, metadata
+          config_timezone: Asia/Shanghai
+          committer_message: "metrics: refresh stats card"
