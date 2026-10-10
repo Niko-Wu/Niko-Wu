@@ -26,6 +26,15 @@ A Claude Code plugin I designed and built at Tuya, in daily use on our team. It 
 - **Deterministic hooks** — objective, file-level checks run as scripts the model cannot skip; judgment calls stay with an LLM reviewer
 - **Knowledge that compounds** — each finished project is curated into an Obsidian wiki (project / app / concept pages), so past decisions and pitfalls feed the next design
 
+### [testcase-kb](https://github.com/Niko-Wu/testcase-kb) — an executable test-case knowledge base
+
+A local-first Claude Code plugin that treats test cases as team knowledge: describe a case in one sentence, get a runnable test.
+
+- **Dual-source by construction** — every case is a design doc (markdown) plus a Playwright spec, assertions isomorphic between the two; selectors are probe-verified against the real page, never guessed
+- **Zero-AI execution** — cases compile to pure Playwright specs that run headless in CI; verdicts come only from spec assertions
+- **Share by link, not by install** — a local site serves progress, failure evidence and screenshots to teammates on the LAN
+- **Private by default** — data lives in `~/.testcase-kb`; teams wanting a shared library just push the data dir, it's all markdown
+
 ### Typed judgments for agents (research)
 
 Exploring [TypeSafe](https://typesafe.ai)'s System One models — **[Jev](https://docs.typesafe.ai)**, its flagship model that turns natural language into typed, composable judgments — as a primitive for agent routing, ranking and verification inside these workflows.
