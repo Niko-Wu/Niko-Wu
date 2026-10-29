@@ -41,30 +41,9 @@ Exploring [TypeSafe](https://typesafe.ai)'s System One models — **[Jev](https:
 
 ## 🔁 Open Source
 
-Contributing to **[chenhg5/cc-connect](https://github.com/chenhg5/cc-connect)** (15k+ ⭐) — bridging IM platforms to local coding agents.
+Contributing to **[chenhg5/cc-connect](https://github.com/chenhg5/cc-connect)** (15k+ ⭐) — bridging IM platforms to local coding agents. I'm a contributor there, mostly across platform adapters and core session behavior: Cursor image attachments, Feishu's AskUserQuestion card (option buttons plus free-form input, with session-bound one-time tokens and server-side validation), `NO_REPLY` handling in the engine, `/model` fallback entries, and service fixes for systemd, cross-platform builds and workspace session storage.
 
-**Merged**
-
-- [#1709](https://github.com/chenhg5/cc-connect/pull/1709) `feat(cursor)` — deliver image attachments to the Cursor CLI via on-disk paths, with MIME-based extension inference
-- [#1710](https://github.com/chenhg5/cc-connect/pull/1710) `fix(daemon)` — drop redundant `CheckLinger` stub that broke all non-Linux builds
-- [#1738](https://github.com/chenhg5/cc-connect/pull/1738) `fix(pi)` — remove unused `os` import that broke Windows builds
-- [#1926](https://github.com/chenhg5/cc-connect/pull/1926) `fix(core)` — derive the workspace session store from the engine store path
-
-**Approved, awaiting merge**
-
-- [#1778](https://github.com/chenhg5/cc-connect/pull/1778) `feat(feishu)` — AskUserQuestion card 2.0: option buttons + free-form input, with one-time session-bound tokens, server-side answer validation and full i18n
-- [#1757](https://github.com/chenhg5/cc-connect/pull/1757) `fix(core)` — trailing `NO_REPLY` must not suppress text already delivered before a tool call
-- [#1755](https://github.com/chenhg5/cc-connect/pull/1755) `fix(claudecode)` — add `claude-fable-5` to the `/model` fallback list
-- [#1925](https://github.com/chenhg5/cc-connect/pull/1925) `chore` — gofmt the tree
-
-**In review**
-
-- [#1756](https://github.com/chenhg5/cc-connect/pull/1756) `fix(daemon)` — set `HOME` in systemd system units so the default `data_dir` resolves
-- [#1754](https://github.com/chenhg5/cc-connect/pull/1754) `fix(preset)` — correct the Kimi API registration link
-
-Also contributing to **[yetone/magpie](https://github.com/yetone/magpie)** — a fix that landed via cherry-pick: [#2219](https://github.com/yetone/magpie/issues/2219) replaces a wall-clock bound in a big-TOML parse test with a size-ratio check, so a loaded runner no longer produces a false red. Cherry-picked as `36200091a`, with the maintainer widening it in `99299c7b1`; listed in the repository's contributors.
-
-And to **[rtk-ai/rtk](https://github.com/rtk-ai/rtk)** — [#3709](https://github.com/rtk-ai/rtk/pull/3709) `fix(stream)`: report a signal-terminated child instead of silently exiting with `128 + signal`.
+Also a contributor to **[yetone/magpie](https://github.com/yetone/magpie)** — fixed a load-sensitive timing test (issue #2219) by replacing its wall-clock bound with a size-ratio check; the fix was cherry-picked into main.
 
 I also build daily on top of open agent tooling — [spec-kit](https://github.com/github/spec-kit), [Claude Code](https://github.com/anthropics/claude-code), and the agent-CLI ecosystem around them.
 
