@@ -43,7 +43,7 @@ Exploring [TypeSafe](https://typesafe.ai)'s System One models — **[Jev](https:
 
 Contributor to:
 
-- **[chenhg5/cc-connect](https://github.com/chenhg5/cc-connect)** — 16k+ ⭐ · bridging IM platforms to local coding agents. Platform adapters (Cursor image attachments, Feishu AskUserQuestion cards) and core session behavior (`NO_REPLY` handling, `/model` fallbacks), plus service fixes for systemd, cross-platform builds and workspace session storage.
+- **[chenhg5/cc-connect](https://github.com/chenhg5/cc-connect)** — 16k+ ⭐ · bridging IM platforms to local coding agents. Built the Feishu AskUserQuestion card 2.0 ([#1778](https://github.com/chenhg5/cc-connect/pull/1778)) — option buttons plus free-form input, with session-bound one-time tokens and server-side validation — alongside platform adapters (Cursor image attachments) and core session behavior (`NO_REPLY` handling, `/model` fallbacks, workspace session storage).
 - **[yetone/magpie](https://github.com/yetone/magpie)** — 24k+ ⭐ · every agent's model, in one place. Fixed a load-sensitive timing test ([#2219](https://github.com/yetone/magpie/issues/2219)) by replacing its wall-clock bound with a size-ratio check; the fix was cherry-picked into main.
 
 I also build daily on top of open agent tooling — [spec-kit](https://github.com/github/spec-kit), [Claude Code](https://github.com/anthropics/claude-code), and the agent-CLI ecosystem around them.
